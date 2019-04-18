@@ -1,0 +1,31 @@
+---
+directorios:
+  plots_dir: //Resultados//Graficos/
+  output_dir: //Resultados/
+  output_aditiva: //Resultados//Z_Aditiva/
+  output_parame: //Resultados//Z_Parametrica/
+  output_mult: //Resultados//Z_Multiplicativa/
+  input_dis: /Proteina/
+  temporary_dir: //Temp/
+  dca_dir : //DCA/DI_values.DI
+  mis_dir : //Mistic/MI_data
+  reduc_ener : //Reduce//Energia/
+  reduc_mip : //Reduce//Mip/
+  reduc : //Reduce/
+parametros:
+  analisis : A
+  metodo_comb : Aditiva
+  venn_1 : Multiplicativa
+  venn_2 : Parametrica_75
+  valor_corte_venn : 3.5
+  familia_TP : noX2MATBLAST90_full_80_TP.dat
+  familia_FP : noX2MATBLAST90_full_80_FP.dat
+  z_alpha : 0.25
+  valor_z_bajo: 2.5
+  valor_z_alto: 3.5
+  Z_corte_DCA: 3.5
+  Z_corte_Mis: 3.5
+  Z_corte_Comb: 3.5
+  corte_tp_a: 5
+  corte_tp_b: 15
+  contar_hasta : 50
